@@ -1,6 +1,6 @@
 # FreeCodeCamp Survey Form
 
-A responsive survey form. This page was built as a front-end project of the [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) certification on responsive web design.
+A responsive Udemy survey form. This page was built as a front-end project of the [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) certification on responsive web design.
 
 - [Page]() - Final result of the project
 
