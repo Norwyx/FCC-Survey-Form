@@ -1,6 +1,6 @@
 # FreeCodeCamp Survey Form
 
-A responsive Udemy survey form. This page was built as a front-end project of the [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) certification on responsive web design.
+A responsive PayPal survey form. This page was built as a front-end project of the [FreeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) certification on responsive web design.
 
 - [Page](https://norwyx.github.io/FCC-Survey-Form/) - Final result of the project
 

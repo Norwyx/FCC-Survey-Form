@@ -1,8 +1,8 @@
 /* Defining my main selectors */
 :root {
-    --main-clr: #BE0027;
-    --secondary-clr: #00BE97;
-    --terciary-clr: #92F708;
+    --main-clr: #FF4269;
+    --main-clr-alpha: rgba(255,66,105,0.4);
+    --secondary-clr: #FF7591;
     --btn-color: #64BC26;   
     
     --ff-primary: "Mulish", sans-serif;
@@ -25,34 +25,61 @@ margin: 0;
 
 /* Background */
 body::before {
-    content: "";
+    content: '';
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
     height: 100%;
     width: 100%;
-    background-color: #d19592;
+    z-index: -1;
+    background:  #d19592;
     background-image: linear-gradient(
-        315deg, 
-        #d19592 0%, 
-        #c81f70 74%
-    );
+        115deg,
+        rgba(209,149,146,0.7),
+       rgba(200,31,112,0.6)
+      ),
+      url(/images/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+    background-position: center;
+  }
 
 /* Main section */
 body {
     font-family: var(--ff-primary);
-    font-size: calc(0.625vmin + 0.825rem);
 }
 
-#title {
+h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    line-height: 2;
+}
 
+p {
+    font-size: 1.125em;
+    font-weight: 400;
 }
 
 .text-center {
     text-align: center;
 }
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 0.5em;
+}
+
+button {
+    border: none;
+}
+
+main {
+    padding: 3em;
+    width: 100%;
+}
 /* Form elements */
+form {
+    background: var(--main-clr-alpha);
+    border-radius: 0.5em;
+}
