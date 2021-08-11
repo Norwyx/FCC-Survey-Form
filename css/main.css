@@ -1,4 +1,4 @@
-/* Defining my main selectors */
+/* Defining my main properties */
 :root {
     --btn-color: #64BC26;
     --color-darkblue: #1b1b32;
@@ -85,7 +85,9 @@ main {
     padding-left: 0.1em;
 }
 
-
+#suggestion-text {
+    padding-bottom: 0.5em;
+}
 
 /* Form elements */
 form {
@@ -136,4 +138,20 @@ form {
   margin-right: 0.625rem;
   min-height: 1.25rem;
   min-width: 1.25rem;
+}
+
+input::placeholder {
+    font-color: green;
+    font-family: var(--ff-primary);
+}
+
+/* I don't know what is this but I'm copypasting it*/
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
