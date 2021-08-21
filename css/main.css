@@ -162,11 +162,3 @@ textarea {
   line-height: inherit;
 }
 /* I don't know what is this but I'm copypasting it*/
-
-/* Mobile version */
-
-@media (max-width: 480px); {
-    .container {
-        width: 540px;
-    }
-}
