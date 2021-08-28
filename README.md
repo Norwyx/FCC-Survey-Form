@@ -4,7 +4,7 @@ A responsive PayPal survey form. This page was built as a front-end project of t
 
 - [Page](https://norwyx.github.io/FCC-Survey-Form/) - Final result of the project
 
-![Survey Form](images/tux.png)
+![Survey Form](images/final-results.png)
 
 
 
